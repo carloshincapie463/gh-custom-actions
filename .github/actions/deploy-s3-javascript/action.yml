@@ -1,7 +1,7 @@
 name: 'Deploy to AWS S3'
 description: 'Deploy a static website via AWS S3'
 inputs:
-  bucket: 'gha-personalizado-action-hosting'
+  bucket:
     description: 'The s3 bucket name'
     required: true
   bucket-region:
